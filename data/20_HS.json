@@ -1,0 +1,6 @@
+{
+    "user_prompt": "From 'If seven plus five equals twelve, then two plus two equals four' together with 'two plus two equals four then one plus ten equals six', can we infer 'If seven plus five equals twelve, then one plus ten equals six'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "openai/gpt-5.4-mini",
+    "responses": "yes"
+}
