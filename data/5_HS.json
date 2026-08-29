@@ -1,0 +1,6 @@
+{
+    "user_prompt": "If I was born on Caballito then I was born on Buenos Aires; and if I was born on Buenos Aires then I was born in Argentina; therefore, if I was born on Caballito, then I was born on Argentina",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "openai/gpt-5.4-mini",
+    "responses": "yes"
+}
