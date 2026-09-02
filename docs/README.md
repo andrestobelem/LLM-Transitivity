@@ -12,3 +12,5 @@ directory.
   methods and applies them to this project.
 - The [existing benchmarks document](research/existing-benchmarks.md) compares
   related benchmarks and recommends a project position.
+- [Abstraction benchmarks](research/abstraction-benchmarks.md) surveys
+  benchmarks for linguistic, conceptual, symbolic, and visual abstraction.
