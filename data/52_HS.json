@@ -1,10 +1,10 @@
 {
-    "user_prompt": "From 'If two plus two equals four, then one plus ten equals six' together with 'If one plus ten equals six, then four plus five equals nine', can we infer 'If two plus two equals four, then four plus five equals nine'?",
+    "user_prompt": "From 'If a screen is on, then a video is playing', together with 'If a video is playing, then the speakers are on', can we infer 'If a screen is on, then the speakers are on'?",
     "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
     "model": "openai/gpt-5.4-mini",
     "responses": "yes",
     "raw_response": {
-        "id": "gen-1788325066-EDaFd4NtYWtCEjZ5aCzK",
+        "id": "gen-1788325100-z0qBPb9frOQuGoZr6Dsy",
         "choices": [
             {
                 "finish_reason": "stop",
@@ -23,7 +23,7 @@
                 "native_finish_reason": "completed"
             }
         ],
-        "created": 1788325066,
+        "created": 1788325100,
         "model": "openai/gpt-5.4-mini",
         "object": "chat.completion",
         "metadata": null,
@@ -32,8 +32,8 @@
         "system_fingerprint": null,
         "usage": {
             "completion_tokens": 5,
-            "prompt_tokens": 75,
-            "total_tokens": 80,
+            "prompt_tokens": 69,
+            "total_tokens": 74,
             "completion_tokens_details": {
                 "accepted_prediction_tokens": null,
                 "audio_tokens": 0,
@@ -50,11 +50,11 @@
                 "text_tokens": null,
                 "video_tokens": 0
             },
-            "cost": 7.875e-05,
+            "cost": 7.425e-05,
             "is_byok": false,
             "cost_details": {
-                "upstream_inference_cost": 7.875e-05,
-                "upstream_inference_prompt_cost": 5.625e-05,
+                "upstream_inference_cost": 7.425e-05,
+                "upstream_inference_prompt_cost": 5.175e-05,
                 "upstream_inference_completions_cost": 2.25e-05
             }
         },
@@ -90,8 +90,8 @@
     },
     "usage": {
         "completion_tokens": 5,
-        "prompt_tokens": 75,
-        "total_tokens": 80,
+        "prompt_tokens": 69,
+        "total_tokens": 74,
         "completion_tokens_details": {
             "accepted_prediction_tokens": null,
             "audio_tokens": 0,
@@ -108,11 +108,11 @@
             "text_tokens": null,
             "video_tokens": 0
         },
-        "cost": 7.875e-05,
+        "cost": 7.425e-05,
         "is_byok": false,
         "cost_details": {
-            "upstream_inference_cost": 7.875e-05,
-            "upstream_inference_prompt_cost": 5.625e-05,
+            "upstream_inference_cost": 7.425e-05,
+            "upstream_inference_prompt_cost": 5.175e-05,
             "upstream_inference_completions_cost": 2.25e-05
         }
     }
