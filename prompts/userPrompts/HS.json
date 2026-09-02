@@ -6,7 +6,7 @@
     ["HS", 5, "If I was born in Caballito then I was born in Buenos Aires; and if I was born in Buenos Aires then I was born in Argentina; therefore, if I was born in Caballito, then I was born in Argentina"],
     ["HS", 6, "If I was born in Caballito, then I was born in Argentina; and if I was born in Argentina then I am Argentinian; therefore, if I was born in Caballito, then I am Argentinian"],
     ["HS", 7, "If today is Monday, then tomorrow is Wednesday; and if tomorrow is Wednesday, then the day after tomorrow is Tuesday; therefore, if today is Monday, then the day after tomorrow is Tuesday"],
-    ["HS", 8, "If I was born on Caballito then I was born on Buenos Aires; and if I was born on Buenos Aires then I was born in South America; therefore, if I was born on Caballito, then I was born on South America"],
+    ["HS", 8, "If I was born in Caballito then I was born in Buenos Aires; and if I was born in Buenos Aires then I was born in South America; therefore, if I was born in Caballito, then I was born in South America"],
     ["HS", 9, "If I was born in Buenos Aires then I was born in Argentina; and if I was born in Argentina then I was born in South America; therefore, if I was born in Argentina, then I was born in South America"],
     ["HS", 10, "If I was born in Buenos Aires then I was born in Argentina; and if I was born in Argentina then I was born in America; therefore, if I was born in Argentina, then I was born in America"],
     ["HS", 11, "If I was born on Buenos then I was born on Argentina; and if I was born on Argentina then I was born in North America; therefore, if I was born on Argentina, then I was born on North America"],
