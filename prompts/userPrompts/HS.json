@@ -28,7 +28,7 @@
     ["HS", 27, "From 'If a room is crowded, then a lamp is broken' together with 'If a lamp is broken, then a chair is comfortable', can we infer 'If a room is crowded, then a chair is comfortable'?"],
     ["HS", 28, "From 'If a village is isolated, then a machine is operational' together with 'If a machine is operational, then a field is barren', can we infer 'If a village is isolated, then a field is barren'?"],
     ["HS", 29, "From 'If a beach is deserted, then a cat is asleep' together with 'If a cat is asleep, then the avenue is busy', can we infer 'If a beach is deserted, then the avenue is busy'?"],
-    ["HS", 30, "From 'If a flower is withered, then The window is open' together with 'The window is open then a mountain is snow-covered', can we infer 'If a flower is withered, then a mountain is snow-covered'?"],
+    ["HS", 30, "From 'If a flower is withered, then The window is open' together with 'If The window is open, then a mountain is snow-covered', can we infer 'If a flower is withered, then a mountain is snow-covered'?"],
     ["HS", 31, "From 'If the piece is broken, then a river is polluted' together with 'a river is polluted then the building is abandoned', can we infer 'If the piece is broken, then the building is abandoned'?"],
     ["HS", 32, "From 'If The train is ultramodern, then a book is damaged' together with 'a book is damaged then a vehicle is parked', can we infer 'If The train is ultramodern, then a vehicle is parked'?"],
     ["HS", 33, "From 'If a door is locked, then a garden is flourishing' together with 'a garden is flourishing then a chair is comfortable', can we infer 'If a door is locked, then a chair is comfortable'?"],
