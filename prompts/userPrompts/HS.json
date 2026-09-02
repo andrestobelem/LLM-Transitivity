@@ -10,7 +10,7 @@
     ["HS", 9, "If I was born in Buenos Aires, then I was born in Argentina; and if I was born in Argentina, then I was born in South America; therefore, if I was born in Argentina, then I was born in South America"],
     ["HS", 10, "If I was born in Buenos Aires, then I was born in Argentina; and if I was born in Argentina, then I was born in America; therefore, if I was born in Argentina, then I was born in America"],
     ["HS", 11, "If I was born in Buenos Aires, then I was born in Argentina; and if I was born in Argentina, then I was born in North America; therefore, if I was born in Argentina, then I was born in North America"],
-    ["HS", 12, "If I was born in Buenos Aires then I was born in Argentina; and if I was born in Argentina then I was born on Planet Earth; therefore, if I was born in Argentina, then I was born on Planet Earth"],
+    ["HS", 12, "If I was born in Buenos Aires, then I was born in Argentina; and if I was born in Argentina, then I was born on Planet Earth; therefore, if I was born in Argentina, then I was born on Planet Earth"],
     ["HS", 13, "If I was born in Buenos Aires then I was born in Argentina; and if I was born in Argentina then I was born on Venus; therefore, if I was born in Argentina, then I was born on Venus"],
     ["HS", 14, "If it's daytime, then the vampire sleeps; and if the vampire sleeps, then the coffin is closed; therefore if it's daytime, then the coffin is closed"],
     ["HS", 15, "If it's nighttime, then the vampire roams; and if the vampire roams, then the coffin is open; therefore if it's nighttime, then the coffin is open"],
