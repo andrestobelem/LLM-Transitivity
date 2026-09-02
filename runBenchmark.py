@@ -88,6 +88,10 @@ def main() -> None:
             "system_prompt": system_prompt,
             "model": "openai/gpt-5.4-mini",
             "responses": answer,
+            "raw_response": response.model_dump(mode="json"),
+            "usage": (
+                response.usage.model_dump(mode="json") if response.usage else None
+            ),
         }
 
         out_file = DATA_DIR / f"{prompt[1]}_{prompt[0]}.json"
