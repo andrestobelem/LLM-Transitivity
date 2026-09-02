@@ -19,12 +19,6 @@ USER_PROMPT_FILES = {
     "HS": USER_PROMPTS_DIR / "HS.json",
 }
 
-load_dotenv()
-
-api_key = os.getenv("OPENROUTER_API_KEY")
-if not api_key:
-    raise ValueError("Set OPENROUTER_API_KEY before running this script.")
-
 
 def load_system_prompt(name: str) -> str:
     path = SYSTEM_PROMPT_FILES[name]
@@ -41,58 +35,61 @@ def load_system_prompt(name: str) -> str:
     return prompts
 
 
-DATA_DIR.mkdir(parents=True, exist_ok=True)
+def main() -> None:
+    load_dotenv()
 
+    api_key = os.getenv("OPENROUTER_API_KEY")
+    if not api_key:
+        raise ValueError("Set OPENROUTER_API_KEY before running this script.")
 
-with open(USER_PROMPTS_DIR / "HS.json") as file:
-    promts = json.load(file)
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-# print(data)
-
-for prompt in promts:
-    # print(prompt)
+    with open(USER_PROMPTS_DIR / "HS.json") as file:
+        promts = json.load(file)
 
     client = OpenAI(
         api_key=api_key,
         base_url="https://openrouter.ai/api/v1",
     )
+    system_prompt = load_system_prompt("zeroShot")
 
-    response = client.chat.completions.create(
-        model="openai/gpt-5.4-mini",
-        messages=[
-            {
-                "role": "system",
-                "content": load_system_prompt("zeroShot"),
-            },
-            {
-                "role": "user",
-                "content": prompt[2],
-            },
-        ],
-        max_completion_tokens=300,
-    )
-
-    answer = response.choices[0].message.content
-    print(answer)
-    # print(load_system_prompt("zeroShot"))
-    # print(json.load("/userPrompts/HS.json"))
-    # print(load_user_prompts("HS"))
-    # print(USER_PROMPT_FILES["HS"])
-
-    data = {
-        "user_prompt": prompt[2],
-        "system_prompt": load_system_prompt("zeroShot"),
-        "model": "openai/gpt-5.4-mini",
-        "responses": answer,
-    }
-
-    out_file = DATA_DIR / f"{prompt[1]}_{prompt[0]}.json"
-    with open(out_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
-
-    if response.usage:
-        print(
-            f"\nTokens used - Input: {response.usage.prompt_tokens}, "
-            f"Output: {response.usage.completion_tokens}, "
-            f"Total: {response.usage.total_tokens}"
+    for prompt in promts:
+        response = client.chat.completions.create(
+            model="openai/gpt-5.4-mini",
+            messages=[
+                {
+                    "role": "system",
+                    "content": system_prompt,
+                },
+                {
+                    "role": "user",
+                    "content": prompt[2],
+                },
+            ],
+            max_completion_tokens=300,
         )
+
+        answer = response.choices[0].message.content
+        print(answer)
+
+        data = {
+            "user_prompt": prompt[2],
+            "system_prompt": system_prompt,
+            "model": "openai/gpt-5.4-mini",
+            "responses": answer,
+        }
+
+        out_file = DATA_DIR / f"{prompt[1]}_{prompt[0]}.json"
+        with open(out_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
+
+        if response.usage:
+            print(
+                f"\nTokens used - Input: {response.usage.prompt_tokens}, "
+                f"Output: {response.usage.completion_tokens}, "
+                f"Total: {response.usage.total_tokens}"
+            )
+
+
+if __name__ == "__main__":
+    main()
