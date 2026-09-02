@@ -69,7 +69,17 @@ def main() -> None:
             max_completion_tokens=300,
         )
 
+        if not response.choices:
+            raise RuntimeError(
+                f"OpenRouter returned no choices for prompt {prompt[1]}."
+            )
+
         answer = response.choices[0].message.content
+        if not answer:
+            raise RuntimeError(
+                f"OpenRouter returned empty content for prompt {prompt[1]}."
+            )
+
         print(answer)
 
         data = {
