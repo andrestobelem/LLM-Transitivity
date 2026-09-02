@@ -19,7 +19,7 @@
     ["HS", 18, "From 'If two plus two equals four, then one plus ten equals six' together with 'If one plus ten equals six, then four plus five equals nine', can we infer 'If two plus two equals four, then four plus five equals nine'?"],
     ["HS", 19, "From 'If one plus ten equals six, then zero plus zero equals zero' together with 'If zero plus zero equals zero, then two plus two equals four', can we infer 'If one plus ten equals six, then two plus two equals four'?"],
     ["HS", 20, "From 'If seven plus five equals twelve, then two plus two equals four' together with 'If two plus two equals four, then one plus ten equals six', can we infer 'If seven plus five equals twelve, then one plus ten equals six'?"],
-    ["HS", 21, "From 'If a cat is asleep, then a flower is withered' together with 'a flower is withered then the piece is broken', can we infer 'If a cat is asleep, then the piece is broken'?"],
+    ["HS", 21, "From 'If a cat is asleep, then a flower is withered' together with 'If a flower is withered, then the piece is broken', can we infer 'If a cat is asleep, then the piece is broken'?"],
     ["HS", 22, "From 'If The avenue is busy, then The train is ultramodern' together with 'The train is ultramodern then The window is open', can we infer 'If The avenue is busy, then The window is open'?"],
     ["HS", 23, "From 'If a door is locked, then a tree is tall' together with 'a tree is tall then a river is polluted', can we infer 'If a door is locked, then a river is polluted'?"],
     ["HS", 24, "From 'If a mountain is snow-covered, then a road is narrow' together with 'a road is narrow then a book is damaged', can we infer 'If a mountain is snow-covered, then a book is damaged'?"],
