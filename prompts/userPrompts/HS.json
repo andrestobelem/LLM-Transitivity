@@ -44,7 +44,7 @@
     ["HS", 43, "From 'If a canvas is painted, then a painting is sold', together with 'If a painting is sold, then the museum is saved', can we infer 'If a canvas is painted, then the museum is saved'?"],
     ["HS", 44, "From 'If the knight is armed, then the king is safe', together with 'If the king is safe, then the kingdom is prosperous', can we infer 'If the knight is armed, then the kingdom is prosperous'?"],
     ["HS", 45, "From 'If the client is overjoyed, then the job is done', together with 'If the job is done, then the plumber is paid', can we infer 'If the client is overjoyed, then the plumber is paid'?"],
-    ["HS", 46, "From 'If an ant jumps, then a crocodile smiles', together with 'if a crocodile smiles, then a lemur dances', can we infer 'if an ant jumps, then a lemur dances'?"],
+    ["HS", 46, "From 'If an ant jumps, then a crocodile smiles', together with 'If a crocodile smiles, then a lemur dances', can we infer 'If an ant jumps, then a lemur dances'?"],
     ["HS", 47, "From 'If the sky is red, then an asteroid is coming', together with 'if an asteroid is coming, then the world is destroyed', can we infer 'if the sky is red, then the world is destroyed'?"],
     ["HS", 48, "From 'If a piano is tuned, then a flute is broken', together with 'if a flute is broken, then a guitar is plugged in', can we infer ''if a piano is tuned, then a guitar is plugged in?"],
     ["HS", 49, "From 'If a park is closed, then a bakery is open', together with 'if a bakery is open, then an airport is repaired', can we infer 'if a park is close, then an airport is repaired'?"],
