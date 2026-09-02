@@ -45,7 +45,7 @@ def main() -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     with open(USER_PROMPTS_DIR / "HS.json") as file:
-        promts = json.load(file)
+        prompts = json.load(file)
 
     client = OpenAI(
         api_key=api_key,
@@ -54,7 +54,7 @@ def main() -> None:
     )
     system_prompt = load_system_prompt("zeroShot")
 
-    for prompt in promts:
+    for prompt in prompts:
         response = client.chat.completions.create(
             model="openai/gpt-5.4-mini",
             messages=[
