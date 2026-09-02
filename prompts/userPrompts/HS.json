@@ -24,7 +24,7 @@
     ["HS", 23, "From 'If a door is locked, then a tree is tall' together with 'If a tree is tall, then a river is polluted', can we infer 'If a door is locked, then a river is polluted'?"],
     ["HS", 24, "From 'If a mountain is snow-covered, then a road is narrow' together with 'If a road is narrow, then a book is damaged', can we infer 'If a mountain is snow-covered, then a book is damaged'?"],
     ["HS", 25, "From 'If a painting is unfinished, then the building is abandoned' together with 'If the building is abandoned, then a bridge is unstable', can we infer 'If a painting is unfinished, then a bridge is unstable'?"],
-    ["HS", 26, "From 'If a garden is flourishing, then a computer is outdated' together with 'a computer is outdated then a vehicle is parked', can we infer 'If a garden is flourishing, then a vehicle is parked'?"],
+    ["HS", 26, "From 'If a garden is flourishing, then a computer is outdated' together with 'If a computer is outdated, then a vehicle is parked', can we infer 'If a garden is flourishing, then a vehicle is parked'?"],
     ["HS", 27, "From 'If a room is crowded, then a lamp is broken' together with 'a lamp is broken then a chair is comfortable', can we infer 'If a room is crowded, then a chair is comfortable'?"],
     ["HS", 28, "From 'If a village is isolated, then a machine is operational' together with 'a machine is operational then a field is barren', can we infer 'If a village is isolated, then a field is barren'?"],
     ["HS", 29, "From 'If a beach is deserted, then a cat is asleep' together with 'a cat is asleep then The avenue is busy', can we infer 'If a beach is deserted, then The avenue is busy'?"],
