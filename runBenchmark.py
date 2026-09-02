@@ -50,6 +50,7 @@ def main() -> None:
     client = OpenAI(
         api_key=api_key,
         base_url="https://openrouter.ai/api/v1",
+        timeout=60.0,
     )
     system_prompt = load_system_prompt("zeroShot")
 
