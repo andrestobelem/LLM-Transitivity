@@ -22,7 +22,7 @@
     ["HS", 21, "From 'If a cat is asleep, then a flower is withered' together with 'If a flower is withered, then the piece is broken', can we infer 'If a cat is asleep, then the piece is broken'?"],
     ["HS", 22, "From 'If the avenue is busy, then the train is ultramodern' together with 'If the train is ultramodern, then the window is open', can we infer 'If the avenue is busy, then the window is open'?"],
     ["HS", 23, "From 'If a door is locked, then a tree is tall' together with 'If a tree is tall, then a river is polluted', can we infer 'If a door is locked, then a river is polluted'?"],
-    ["HS", 24, "From 'If a mountain is snow-covered, then a road is narrow' together with 'a road is narrow then a book is damaged', can we infer 'If a mountain is snow-covered, then a book is damaged'?"],
+    ["HS", 24, "From 'If a mountain is snow-covered, then a road is narrow' together with 'If a road is narrow, then a book is damaged', can we infer 'If a mountain is snow-covered, then a book is damaged'?"],
     ["HS", 25, "From 'If a painting is unfinished, then the building is abandoned' together with 'the building is abandoned then a bridge is unstable', can we infer 'If a painting is unfinished, then a bridge is unstable'?"],
     ["HS", 26, "From 'If a garden is flourishing, then a computer is outdated' together with 'a computer is outdated then a vehicle is parked', can we infer 'If a garden is flourishing, then a vehicle is parked'?"],
     ["HS", 27, "From 'If a room is crowded, then a lamp is broken' together with 'a lamp is broken then a chair is comfortable', can we infer 'If a room is crowded, then a chair is comfortable'?"],
