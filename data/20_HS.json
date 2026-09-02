@@ -4,7 +4,7 @@
     "model": "openai/gpt-5.4-mini",
     "responses": "yes",
     "raw_response": {
-        "id": "gen-1788325068-4WCrb9NxQAVmeNSo4MLJ",
+        "id": "gen-1788325365-2xyiHCHLioUb7dE4h2Uz",
         "choices": [
             {
                 "finish_reason": "stop",
@@ -23,7 +23,7 @@
                 "native_finish_reason": "completed"
             }
         ],
-        "created": 1788325068,
+        "created": 1788325365,
         "model": "openai/gpt-5.4-mini",
         "object": "chat.completion",
         "metadata": null,
