@@ -63,6 +63,20 @@ The current runner uses these fixed settings:
 
 A new run replaces any result file that has the same case ID.
 
+## Development checks
+
+Run the linter:
+
+```shell
+uv run ruff check .
+```
+
+Check the code format:
+
+```shell
+uv run ruff format --check .
+```
+
 ## Documentation
 
 See the [documentation index](docs/README.md) for detailed project documents.
