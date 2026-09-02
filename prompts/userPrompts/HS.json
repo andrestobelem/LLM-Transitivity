@@ -39,7 +39,7 @@
     ["HS", 38, "From 'If the avenue is busy, then a river is polluted' together with 'If a river is polluted, then a machine is operational', can we infer 'If the avenue is busy, then a machine is operational'?"],
     ["HS", 39, "From 'If a mountain is snow-covered, then a vehicle is parked' together with 'If a vehicle is parked, then a flower is withered', can we infer 'If a mountain is snow-covered, then a flower is withered'?"],
     ["HS", 40, "From 'If a garden is flourishing, then a beach is deserted' together with 'If a beach is deserted, then a door is locked', can we infer 'If a garden is flourishing, then a door is locked'?"],
-    ["HS", 41, "From 'If the sky goes black, then lightning strikes', together with 'if lightning strikes then a dog barks', can we infer 'if the sky goes black then a dog barks'?"],
+    ["HS", 41, "From 'If the sky goes black, then lightning strikes', together with 'If lightning strikes then a dog barks', can we infer 'If the sky goes black then a dog barks'?"],
     ["HS", 42, "From 'If a tree was cut, then the leaves have fallen', together with 'if the leaves have fallen, then autumn has come', can we infer 'if a tree was cut, then autumn has come'?"],
     ["HS", 43, "From 'If a canvas is painted, then a painting is sold', together with 'if a painting is sold, then the museum is saved', can we infer 'if a canvas is painted, then the museum is saved'?"],
     ["HS", 44, "From 'If the knight is armed, then the king is safe', together with 'if the king is safe, then the kingdom is prosperous', can we infer 'if the knight is armed them the kingdom is prosperous'?"],
