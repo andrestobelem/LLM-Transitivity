@@ -12,7 +12,7 @@
     ["HS", 11, "If I was born in Buenos Aires then I was born in Argentina; and if I was born in Argentina then I was born in North America; therefore, if I was born in Argentina, then I was born in North America"],
     ["HS", 12, "If I was born in Buenos Aires then I was born in Argentina; and if I was born in Argentina then I was born on Planet Earth; therefore, if I was born in Argentina, then I was born on Planet Earth"],
     ["HS", 13, "If I was born in Buenos Aires then I was born in Argentina; and if I was born in Argentina then I was born on Venus; therefore, if I was born in Argentina, then I was born on Venus"],
-    ["HS", 14, "If it's daytime, then the vampire sleeps; and if the vampire sleeps, then the coffin is closed; therefore id it's daytime, then the coffin is closed"],
+    ["HS", 14, "If it's daytime, then the vampire sleeps; and if the vampire sleeps, then the coffin is closed; therefore if it's daytime, then the coffin is closed"],
     ["HS", 15, "If its nigthtime, then the vampire roams; and if the vampire roams, then the coffin is open; therefore id its nigthtime, then the coffin is open"],
     ["HS", 16, "From 'If two plus two equals four, then four plus five equals nine' together with 'four plus five equals nine then seven plus five equals twelve', can we infer 'If two plus two equals four, then seven plus five equals twelve'?"], 
     ["HS", 17, "From 'If four plus five equals nine, then seven plus five equals twelve' together with 'seven plus five equals twelve then zero plus zero equals zero', can we infer 'If four plus five equals nine, then zero plus zero equals zero'?"],
