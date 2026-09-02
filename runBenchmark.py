@@ -51,6 +51,7 @@ def main() -> None:
         api_key=api_key,
         base_url="https://openrouter.ai/api/v1",
         timeout=60.0,
+        default_headers={"X-OpenRouter-Metadata": "enabled"},
     )
     system_prompt = load_system_prompt("zeroShot")
 
