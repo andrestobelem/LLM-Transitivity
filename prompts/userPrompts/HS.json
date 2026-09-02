@@ -37,7 +37,7 @@
     ["HS", 36, "From 'If a painting is unfinished, then a lamp is broken' together with 'If a lamp is broken, then the window is open', can we infer 'If a painting is unfinished, then the window is open'?"],
     ["HS", 37, "From 'If a bridge is unstable, then a village is isolated' together with 'If a village is isolated, then the piece is broken', can we infer 'If a bridge is unstable, then the piece is broken'?"],
     ["HS", 38, "From 'If the avenue is busy, then a river is polluted' together with 'If a river is polluted, then a machine is operational', can we infer 'If the avenue is busy, then a machine is operational'?"],
-    ["HS", 39, "From 'If a mountain is snow-covered, then a vehicle is parked' together with 'a vehicle is parked then a flower is withered', can we infer 'If a mountain is snow-covered, then a flower is withered'?"],
+    ["HS", 39, "From 'If a mountain is snow-covered, then a vehicle is parked' together with 'If a vehicle is parked, then a flower is withered', can we infer 'If a mountain is snow-covered, then a flower is withered'?"],
     ["HS", 40, "From 'If a garden is flourishing, then a beach is deserted' together with 'a beach is deserted then a door is locked', can we infer 'If a garden is flourishing, then a door is locked'?"],
     ["HS", 41, "From 'If the sky goes black, then lighting strikes', together with 'if lighting strikes then a dog barks', can we infer 'if the sky goes black then a dog barks'?"],
     ["HS", 42, "From 'If a tree was cut, then the leaves have fallen', together with 'if the leaves have fallen, then autumn has come', can we infer 'if a tree was cut, then autumn has come'?"],
