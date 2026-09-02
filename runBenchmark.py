@@ -26,13 +26,13 @@ def load_system_prompt(name: str) -> str:
     return data["system_prompt"]
 
     # def load_user_prompts(name: str) -> str:
-    path = SYSTEM_PROMPT_FILES[name]
-    data = json.loads(path.read_text(encoding="utf-8-sig"))
-    prompts = []
-    for entry in data:
-        category, prompt_id, text = entry[0], entry[1], entry[2]
-        prompts.append({"category": category, "id": prompt_id, "text": text})
-    return prompts
+    #     path = SYSTEM_PROMPT_FILES[name]
+    #     data = json.loads(path.read_text(encoding="utf-8-sig"))
+    #     prompts = []
+    #     for entry in data:
+    #         category, prompt_id, text = entry[0], entry[1], entry[2]
+    #         prompts.append({"category": category, "id": prompt_id, "text": text})
+    #     return prompts
 
 
 def main() -> None:
