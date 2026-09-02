@@ -14,6 +14,9 @@ model uses semantic plausibility instead of the stated logical form.
 - `runBenchmark.py` sends each case to the model through OpenRouter.
 - `data/` contains one JSON result file for each completed case.
 - `docs/` contains project documentation.
+- `pyproject.toml` contains the project metadata and dependencies.
+- `uv.lock` contains the locked dependency versions.
+- `.python-version` pins Python 3.14 for `uv`.
 
 Each prompt entry has this format:
 
@@ -25,11 +28,11 @@ The fields are the task category, the case ID, and the question.
 
 ## Setup
 
-Create and activate a Python virtual environment. Then install the two runtime
-dependencies:
+Install `uv`. Then install the pinned Python version and project dependencies:
 
 ```shell
-python -m pip install openai python-dotenv
+uv python install 3.14
+uv sync --locked
 ```
 
 Create a `.env` file in the repository root:
@@ -45,7 +48,7 @@ The `.gitignore` file excludes `.env` from version control.
 Run this command from the repository root:
 
 ```shell
-python runBenchmark.py
+uv run python runBenchmark.py
 ```
 
 The runner processes all entries in `prompts/userPrompts/HS.json`. It prints
