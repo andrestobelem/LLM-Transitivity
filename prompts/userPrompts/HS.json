@@ -55,5 +55,5 @@
     ["HS", 54, "From 'If a truck is new, then a plane is black', together with 'If a plane is black, then a bike is tuned', can we infer 'If a truck is new, then a bike is tuned'?"],
     ["HS", 55, "From 'If a penguin slides, then a turtle sighs', together with 'If a turtle sighs, then a hyena laughs', can we infer 'If a penguin slides, then a hyena laughs'?"],
     ["HS", 56, "From 'If a glass is full, then a business is bankrupt', together with 'If a business is bankrupt, then a lake is clean', can we infer 'If a glass is full, then a lake is clean'?"],
-    ["HS", 57, "From 'If the sky is clear, you will see the stars', together with 'If you see the stars, you will see constellations', can we infer 'If the sky is clear, you will see constellations.'"]
+    ["HS", 57, "From 'If the sky is clear, you will see the stars', together with 'If you see the stars, you will see constellations', can we infer 'If the sky is clear, you will see constellations'?"]
 ]
