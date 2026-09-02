@@ -52,7 +52,7 @@
     ["HS", 51, "From 'If a trial ends, then the culprit is determined', together with 'If the culprit is determined, then the victim is relieved', can we infer 'If a trial ends, then the victim is relieved'?"],
     ["HS", 52, "From 'If a screen is on, then a video is playing', together with 'If a video is playing, then the speakers are on', can we infer 'If a screen is on, then the speakers are on'?"],
     ["HS", 53, "From 'If an ice-cream is tasty, then a steak is salty', together with 'If a steak is salty, then a tomato is fresh', can we infer 'If an ice-cream is tasty, then a tomato is fresh'?"],
-    ["HS", 54, "From 'If a truck is new, then a plane is black', together with 'if a plane is black, then a bike is tuned', can we infer 'if a truck is new, then a bike is tuned'?"],
+    ["HS", 54, "From 'If a truck is new, then a plane is black', together with 'If a plane is black, then a bike is tuned', can we infer 'If a truck is new, then a bike is tuned'?"],
     ["HS", 55, "From 'If a penguin slides, then a turtle sighs', together with 'if a turtle sighs, then a hyena laughs', can we infer 'if a penguin slides, then a hyena laughs'?"],
     ["HS", 56, "From 'If a glass is full, then a bussinness is bankrupt', together with 'if a bussinness is bankrupt, then a lake is clean', can we infer 'if a glass is full, then a lake is clean'?"],
     ["HS", 57, "From 'If the sky is clear, you will see the stars', together with 'if you see the stars, you will see constellations', can we infer 'if the sky is clear, you will see constellations.'"]
