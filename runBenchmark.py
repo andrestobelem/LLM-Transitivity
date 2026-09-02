@@ -54,6 +54,7 @@ def main() -> None:
         default_headers={"X-OpenRouter-Metadata": "enabled"},
     )
     system_prompt = load_system_prompt("zeroShot")
+    total_cost = 0.0
 
     for prompt in prompts:
         response = client.chat.completions.create(
@@ -100,11 +101,21 @@ def main() -> None:
             json.dump(data, f, indent=4, ensure_ascii=False)
 
         if response.usage:
+            response_cost = getattr(response.usage, "cost", None)
+            if response_cost is not None:
+                response_cost = float(response_cost)
+                total_cost += response_cost
+                print(
+                    f"\nCost - Current: ${response_cost:.8f}, Total: ${total_cost:.8f}",
+                    flush=True,
+                )
             print(
                 f"\nTokens used - Input: {response.usage.prompt_tokens}, "
                 f"Output: {response.usage.completion_tokens}, "
                 f"Total: {response.usage.total_tokens}"
             )
+
+    print(f"\nTotal run cost: ${total_cost:.8f}", flush=True)
 
 
 if __name__ == "__main__":
