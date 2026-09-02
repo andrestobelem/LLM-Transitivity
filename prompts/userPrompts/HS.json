@@ -49,7 +49,7 @@
     ["HS", 48, "From 'If a piano is tuned, then a flute is broken', together with 'If a flute is broken, then a guitar is plugged in', can we infer 'If a piano is tuned, then a guitar is plugged in'?"],
     ["HS", 49, "From 'If a park is closed, then a bakery is open', together with 'If a bakery is open, then an airport is repaired', can we infer 'If a park is closed, then an airport is repaired'?"],
     ["HS", 50, "From 'If Mary was crying, then John was dead', together with 'If John was dead, then the substance was poisonous', can we infer 'If Mary was crying, then the substance was poisonous'?"],
-    ["HS", 51, "From 'If a trial ends, then the culprit is determined', together with 'If the culprit is determined, then the victim is relieved', can we infer 'If a trial ends then the victim is relieved'?"],
+    ["HS", 51, "From 'If a trial ends, then the culprit is determined', together with 'If the culprit is determined, then the victim is relieved', can we infer 'If a trial ends, then the victim is relieved'?"],
     ["HS", 52, "From 'If a screen is on, then a video is playing', together with 'if a video is playing, then the speakers are on', can we infer 'if a screen is on, then the speakers are on'?"],
     ["HS", 53, "From 'If an ice-cream is tasty, then a steak is salty', together with 'if a steak is salty, then a tomato is fresh', can we infer 'if an ice-cream is tasty, then a tomato is fresh'?"],
     ["HS", 54, "From 'If a truck is new, then a plane is black', together with 'if a plane is black, then a bike is tuned', can we infer 'if a truck is new, then a bike is tuned'?"],
