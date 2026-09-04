@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 from pathlib import Path
@@ -20,6 +21,29 @@ USER_PROMPT_FILES = {
 }
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Run the LLM Transitivity benchmark.")
+    parser.add_argument(
+        "--dataset",
+        type=Path,
+        default=USER_PROMPT_FILES["HS"],
+        help="Path to the prompt dataset.",
+    )
+    parser.add_argument(
+        "--data-dir",
+        type=Path,
+        default=DATA_DIR,
+        help="Directory for model result files.",
+    )
+    return parser.parse_args()
+
+
+def project_path(path: Path) -> Path:
+    if path.is_absolute():
+        return path
+    return PROJECT_ROOT / path
+
+
 def load_system_prompt(name: str) -> str:
     path = SYSTEM_PROMPT_FILES[name]
     data = json.loads(path.read_text(encoding="utf-8-sig"))
@@ -36,15 +60,18 @@ def load_system_prompt(name: str) -> str:
 
 
 def main() -> None:
+    args = parse_args()
     load_dotenv()
 
     api_key = os.getenv("OPENROUTER_API_KEY")
     if not api_key:
         raise ValueError("Set OPENROUTER_API_KEY before running this script.")
 
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    dataset_path = project_path(args.dataset)
+    data_dir = project_path(args.data_dir)
+    data_dir.mkdir(parents=True, exist_ok=True)
 
-    with open(USER_PROMPTS_DIR / "HS.json") as file:
+    with dataset_path.open(encoding="utf-8") as file:
         prompts = json.load(file)
 
     client = OpenAI(
@@ -96,7 +123,7 @@ def main() -> None:
             ),
         }
 
-        out_file = DATA_DIR / f"{prompt[1]}_{prompt[0]}.json"
+        out_file = data_dir / f"{prompt[1]}_{prompt[0]}.json"
         with open(out_file, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
 

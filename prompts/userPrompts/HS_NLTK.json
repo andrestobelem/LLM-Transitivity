@@ -1,0 +1,502 @@
+[
+    [
+        "HS",
+        1,
+        "From 'If something has the label \"spectacle\", then it has the label \"display\"' together with 'If something has the label \"display\", then it has the label \"representation\"', can we infer 'If something has the label \"spectacle\", then it has the label \"representation\"'?"
+    ],
+    [
+        "HS",
+        2,
+        "From 'If something has the label \"court\", then it has the label \"hotel\"' together with 'If something has the label \"hotel\", then it has the label \"building\"', can we infer 'If something has the label \"court\", then it has the label \"author\"'?"
+    ],
+    [
+        "HS",
+        3,
+        "From 'If something has the label \"beauty\", then it has the label \"woman\"' together with 'If something has the label \"woman\", then it has the label \"adult\"', can we infer 'If something has the label \"beauty\", then it has the label \"adult\"'?"
+    ],
+    [
+        "HS",
+        4,
+        "From 'If something has the label \"craft\", then it has the label \"vehicle\"' together with 'If something has the label \"vehicle\", then it has the label \"transport\"', can we infer 'If something has the label \"craft\", then it has the label \"work\"'?"
+    ],
+    [
+        "HS",
+        5,
+        "From 'If something has the label \"stand\", then it has the label \"support\"' together with 'If something has the label \"support\", then it has the label \"device\"', can we infer 'If something has the label \"stand\", then it has the label \"path\"'?"
+    ],
+    [
+        "HS",
+        6,
+        "From 'If something has the label \"gin\", then it has the label \"machine\"' together with 'If something has the label \"machine\", then it has the label \"device\"', can we infer 'If something has the label \"gin\", then it has the label \"device\"'?"
+    ],
+    [
+        "HS",
+        7,
+        "From 'If something has the label \"illustration\", then it has the label \"representation\"' together with 'If something has the label \"representation\", then it has the label \"creation\"', can we infer 'If something has the label \"illustration\", then it has the label \"creation\"'?"
+    ],
+    [
+        "HS",
+        8,
+        "From 'If something has the label \"memory\", then it has the label \"hardware\"' together with 'If something has the label \"hardware\", then it has the label \"component\"', can we infer 'If something has the label \"memory\", then it has the label \"carriage\"'?"
+    ],
+    [
+        "HS",
+        9,
+        "From 'If something has the label \"park\", then it has the label \"lot\"' together with 'If something has the label \"lot\", then it has the label \"tract\"', can we infer 'If something has the label \"park\", then it has the label \"carriage\"'?"
+    ],
+    [
+        "HS",
+        10,
+        "From 'If something has the label \"drift\", then it has the label \"mass\"' together with 'If something has the label \"mass\", then it has the label \"body\"', can we infer 'If something has the label \"drift\", then it has the label \"body\"'?"
+    ],
+    [
+        "HS",
+        11,
+        "From 'If something has the label \"well\", then it has the label \"compartment\"' together with 'If something has the label \"compartment\", then it has the label \"room\"', can we infer 'If something has the label \"well\", then it has the label \"room\"'?"
+    ],
+    [
+        "HS",
+        12,
+        "From 'If something has the label \"place\", then it has the label \"square\"' together with 'If something has the label \"square\", then it has the label \"tract\"', can we infer 'If something has the label \"place\", then it has the label \"tract\"'?"
+    ],
+    [
+        "HS",
+        13,
+        "From 'If something has the label \"making\", then it has the label \"component\"' together with 'If something has the label \"component\", then it has the label \"part\"', can we infer 'If something has the label \"making\", then it has the label \"part\"'?"
+    ],
+    [
+        "HS",
+        14,
+        "From 'If something has the label \"loop\", then it has the label \"camp\"' together with 'If something has the label \"camp\", then it has the label \"band\"', can we infer 'If something has the label \"loop\", then it has the label \"smoke\"'?"
+    ],
+    [
+        "HS",
+        15,
+        "From 'If something has the label \"site\", then it has the label \"place\"' together with 'If something has the label \"place\", then it has the label \"point\"', can we infer 'If something has the label \"site\", then it has the label \"point\"'?"
+    ],
+    [
+        "HS",
+        16,
+        "From 'If something has the label \"shaft\", then it has the label \"arm\"' together with 'If something has the label \"arm\", then it has the label \"instrument\"', can we infer 'If something has the label \"shaft\", then it has the label \"instrument\"'?"
+    ],
+    [
+        "HS",
+        17,
+        "From 'If something has the label \"gin\", then it has the label \"liquor\"' together with 'If something has the label \"liquor\", then it has the label \"alcohol\"', can we infer 'If something has the label \"gin\", then it has the label \"alcohol\"'?"
+    ],
+    [
+        "HS",
+        18,
+        "From 'If something has the label \"widow\", then it has the label \"woman\"' together with 'If something has the label \"woman\", then it has the label \"adult\"', can we infer 'If something has the label \"widow\", then it has the label \"adult\"'?"
+    ],
+    [
+        "HS",
+        19,
+        "From 'If something has the label \"trigger\", then it has the label \"lever\"' together with 'If something has the label \"lever\", then it has the label \"bar\"', can we infer 'If something has the label \"trigger\", then it has the label \"bar\"'?"
+    ],
+    [
+        "HS",
+        20,
+        "From 'If something has the label \"copy\", then it has the label \"representation\"' together with 'If something has the label \"representation\", then it has the label \"creation\"', can we infer 'If something has the label \"copy\", then it has the label \"missile\"'?"
+    ],
+    [
+        "HS",
+        21,
+        "From 'If something has the label \"line\", then it has the label \"conductor\"' together with 'If something has the label \"conductor\", then it has the label \"device\"', can we infer 'If something has the label \"line\", then it has the label \"point\"'?"
+    ],
+    [
+        "HS",
+        22,
+        "From 'If something has the label \"chain\", then it has the label \"series\"' together with 'If something has the label \"series\", then it has the label \"order\"', can we infer 'If something has the label \"chain\", then it has the label \"complex\"'?"
+    ],
+    [
+        "HS",
+        23,
+        "From 'If something has the label \"hen\", then it has the label \"chicken\"' together with 'If something has the label \"chicken\", then it has the label \"poultry\"', can we infer 'If something has the label \"hen\", then it has the label \"poultry\"'?"
+    ],
+    [
+        "HS",
+        24,
+        "From 'If something has the label \"girl\", then it has the label \"woman\"' together with 'If something has the label \"woman\", then it has the label \"adult\"', can we infer 'If something has the label \"girl\", then it has the label \"adult\"'?"
+    ],
+    [
+        "HS",
+        25,
+        "From 'If something has the label \"course\", then it has the label \"direction\"' together with 'If something has the label \"direction\", then it has the label \"path\"', can we infer 'If something has the label \"course\", then it has the label \"path\"'?"
+    ],
+    [
+        "HS",
+        26,
+        "From 'If something has the label \"drum\", then it has the label \"vessel\"' together with 'If something has the label \"vessel\", then it has the label \"container\"', can we infer 'If something has the label \"drum\", then it has the label \"edge\"'?"
+    ],
+    [
+        "HS",
+        27,
+        "From 'If something has the label \"front\", then it has the label \"face\"' together with 'If something has the label \"face\", then it has the label \"surface\"', can we infer 'If something has the label \"front\", then it has the label \"surface\"'?"
+    ],
+    [
+        "HS",
+        28,
+        "From 'If something has the label \"plate\", then it has the label \"illustration\"' together with 'If something has the label \"illustration\", then it has the label \"representation\"', can we infer 'If something has the label \"plate\", then it has the label \"representation\"'?"
+    ],
+    [
+        "HS",
+        29,
+        "From 'If something has the label \"collar\", then it has the label \"band\"' together with 'If something has the label \"band\", then it has the label \"slip\"', can we infer 'If something has the label \"collar\", then it has the label \"slip\"'?"
+    ],
+    [
+        "HS",
+        30,
+        "From 'If something has the label \"track\", then it has the label \"road\"' together with 'If something has the label \"road\", then it has the label \"way\"', can we infer 'If something has the label \"track\", then it has the label \"way\"'?"
+    ],
+    [
+        "HS",
+        31,
+        "From 'If something has the label \"gun\", then it has the label \"arm\"' together with 'If something has the label \"arm\", then it has the label \"instrument\"', can we infer 'If something has the label \"gun\", then it has the label \"piece\"'?"
+    ],
+    [
+        "HS",
+        32,
+        "From 'If something has the label \"document\", then it has the label \"representation\"' together with 'If something has the label \"representation\", then it has the label \"creation\"', can we infer 'If something has the label \"document\", then it has the label \"room\"'?"
+    ],
+    [
+        "HS",
+        33,
+        "From 'If something has the label \"return\", then it has the label \"key\"' together with 'If something has the label \"key\", then it has the label \"lever\"', can we infer 'If something has the label \"return\", then it has the label \"lever\"'?"
+    ],
+    [
+        "HS",
+        34,
+        "From 'If something has the label \"setting\", then it has the label \"place\"' together with 'If something has the label \"place\", then it has the label \"point\"', can we infer 'If something has the label \"setting\", then it has the label \"point\"'?"
+    ],
+    [
+        "HS",
+        35,
+        "From 'If something has the label \"elevator\", then it has the label \"surface\"' together with 'If something has the label \"surface\", then it has the label \"device\"', can we infer 'If something has the label \"elevator\", then it has the label \"device\"'?"
+    ],
+    [
+        "HS",
+        36,
+        "From 'If something has the label \"range\", then it has the label \"mixture\"' together with 'If something has the label \"mixture\", then it has the label \"accumulation\"', can we infer 'If something has the label \"range\", then it has the label \"line\"'?"
+    ],
+    [
+        "HS",
+        37,
+        "From 'If something has the label \"nursery\", then it has the label \"building\"' together with 'If something has the label \"building\", then it has the label \"construction\"', can we infer 'If something has the label \"nursery\", then it has the label \"creation\"'?"
+    ],
+    [
+        "HS",
+        38,
+        "From 'If something has the label \"lip\", then it has the label \"edge\"' together with 'If something has the label \"edge\", then it has the label \"side\"', can we infer 'If something has the label \"lip\", then it has the label \"piece\"'?"
+    ],
+    [
+        "HS",
+        39,
+        "From 'If something has the label \"drive\", then it has the label \"road\"' together with 'If something has the label \"road\", then it has the label \"way\"', can we infer 'If something has the label \"drive\", then it has the label \"wind\"'?"
+    ],
+    [
+        "HS",
+        40,
+        "From 'If something has the label \"reserve\", then it has the label \"military\"' together with 'If something has the label \"military\", then it has the label \"force\"', can we infer 'If something has the label \"reserve\", then it has the label \"force\"'?"
+    ],
+    [
+        "HS",
+        41,
+        "From 'If something has the label \"militia\", then it has the label \"force\"' together with 'If something has the label \"force\", then it has the label \"unit\"', can we infer 'If something has the label \"militia\", then it has the label \"unit\"'?"
+    ],
+    [
+        "HS",
+        42,
+        "From 'If something has the label \"hall\", then it has the label \"building\"' together with 'If something has the label \"building\", then it has the label \"construction\"', can we infer 'If something has the label \"hall\", then it has the label \"unit\"'?"
+    ],
+    [
+        "HS",
+        43,
+        "From 'If something has the label \"newspaper\", then it has the label \"product\"' together with 'If something has the label \"product\", then it has the label \"creation\"', can we infer 'If something has the label \"newspaper\", then it has the label \"switch\"'?"
+    ],
+    [
+        "HS",
+        44,
+        "From 'If something has the label \"game\", then it has the label \"meat\"' together with 'If something has the label \"meat\", then it has the label \"food\"', can we infer 'If something has the label \"game\", then it has the label \"container\"'?"
+    ],
+    [
+        "HS",
+        45,
+        "From 'If something has the label \"bird\", then it has the label \"girl\"' together with 'If something has the label \"girl\", then it has the label \"woman\"', can we infer 'If something has the label \"bird\", then it has the label \"tract\"'?"
+    ],
+    [
+        "HS",
+        46,
+        "From 'If something has the label \"tappet\", then it has the label \"lever\"' together with 'If something has the label \"lever\", then it has the label \"bar\"', can we infer 'If something has the label \"tappet\", then it has the label \"food\"'?"
+    ],
+    [
+        "HS",
+        47,
+        "From 'If something has the label \"settlement\", then it has the label \"community\"' together with 'If something has the label \"community\", then it has the label \"gathering\"', can we infer 'If something has the label \"settlement\", then it has the label \"leader\"'?"
+    ],
+    [
+        "HS",
+        48,
+        "From 'If something has the label \"name\", then it has the label \"family\"' together with 'If something has the label \"family\", then it has the label \"blood\"', can we infer 'If something has the label \"name\", then it has the label \"blood\"'?"
+    ],
+    [
+        "HS",
+        49,
+        "From 'If something has the label \"nut\", then it has the label \"seed\"' together with 'If something has the label \"seed\", then it has the label \"fruit\"', can we infer 'If something has the label \"nut\", then it has the label \"fruit\"'?"
+    ],
+    [
+        "HS",
+        50,
+        "From 'If something has the label \"hole\", then it has the label \"depression\"' together with 'If something has the label \"depression\", then it has the label \"formation\"', can we infer 'If something has the label \"hole\", then it has the label \"formation\"'?"
+    ],
+    [
+        "HS",
+        51,
+        "From 'If something has the label \"leader\", then it has the label \"feature\"' together with 'If something has the label \"feature\", then it has the label \"product\"', can we infer 'If something has the label \"leader\", then it has the label \"support\"'?"
+    ],
+    [
+        "HS",
+        52,
+        "From 'If something has the label \"back\", then it has the label \"support\"' together with 'If something has the label \"support\", then it has the label \"device\"', can we infer 'If something has the label \"back\", then it has the label \"shelter\"'?"
+    ],
+    [
+        "HS",
+        53,
+        "From 'If something has the label \"compartment\", then it has the label \"room\"' together with 'If something has the label \"room\", then it has the label \"area\"', can we infer 'If something has the label \"compartment\", then it has the label \"image\"'?"
+    ],
+    [
+        "HS",
+        54,
+        "From 'If something has the label \"plug\", then it has the label \"bit\"' together with 'If something has the label \"bit\", then it has the label \"taste\"', can we infer 'If something has the label \"plug\", then it has the label \"liquor\"'?"
+    ],
+    [
+        "HS",
+        55,
+        "From 'If something has the label \"tube\", then it has the label \"railroad\"' together with 'If something has the label \"railroad\", then it has the label \"line\"', can we infer 'If something has the label \"tube\", then it has the label \"line\"'?"
+    ],
+    [
+        "HS",
+        56,
+        "From 'If something has the label \"squad\", then it has the label \"unit\"' together with 'If something has the label \"unit\", then it has the label \"organization\"', can we infer 'If something has the label \"squad\", then it has the label \"part\"'?"
+    ],
+    [
+        "HS",
+        57,
+        "From 'If something has the label \"layer\", then it has the label \"hen\"' together with 'If something has the label \"hen\", then it has the label \"chicken\"', can we infer 'If something has the label \"layer\", then it has the label \"chicken\"'?"
+    ],
+    [
+        "HS",
+        58,
+        "From 'If something has the label \"neighborhood\", then it has the label \"community\"' together with 'If something has the label \"community\", then it has the label \"gathering\"', can we infer 'If something has the label \"neighborhood\", then it has the label \"match\"'?"
+    ],
+    [
+        "HS",
+        59,
+        "From 'If something has the label \"house\", then it has the label \"legislature\"' together with 'If something has the label \"legislature\", then it has the label \"assembly\"', can we infer 'If something has the label \"house\", then it has the label \"assembly\"'?"
+    ],
+    [
+        "HS",
+        60,
+        "From 'If something has the label \"subsection\", then it has the label \"section\"' together with 'If something has the label \"section\", then it has the label \"part\"', can we infer 'If something has the label \"subsection\", then it has the label \"building\"'?"
+    ],
+    [
+        "HS",
+        61,
+        "From 'If something has the label \"wine\", then it has the label \"alcohol\"' together with 'If something has the label \"alcohol\", then it has the label \"drink\"', can we infer 'If something has the label \"wine\", then it has the label \"drink\"'?"
+    ],
+    [
+        "HS",
+        62,
+        "From 'If something has the label \"baby\", then it has the label \"issue\"' together with 'If something has the label \"issue\", then it has the label \"relation\"', can we infer 'If something has the label \"baby\", then it has the label \"division\"'?"
+    ],
+    [
+        "HS",
+        63,
+        "From 'If something has the label \"safety\", then it has the label \"area\"' together with 'If something has the label \"area\", then it has the label \"region\"', can we infer 'If something has the label \"safety\", then it has the label \"region\"'?"
+    ],
+    [
+        "HS",
+        64,
+        "From 'If something has the label \"chair\", then it has the label \"seat\"' together with 'If something has the label \"seat\", then it has the label \"furniture\"', can we infer 'If something has the label \"chair\", then it has the label \"furniture\"'?"
+    ],
+    [
+        "HS",
+        65,
+        "From 'If something has the label \"bull\", then it has the label \"center\"' together with 'If something has the label \"center\", then it has the label \"point\"', can we infer 'If something has the label \"bull\", then it has the label \"point\"'?"
+    ],
+    [
+        "HS",
+        66,
+        "From 'If something has the label \"bowl\", then it has the label \"dish\"' together with 'If something has the label \"dish\", then it has the label \"container\"', can we infer 'If something has the label \"bowl\", then it has the label \"container\"'?"
+    ],
+    [
+        "HS",
+        67,
+        "From 'If something has the label \"liquor\", then it has the label \"stock\"' together with 'If something has the label \"stock\", then it has the label \"soup\"', can we infer 'If something has the label \"liquor\", then it has the label \"depression\"'?"
+    ],
+    [
+        "HS",
+        68,
+        "From 'If something has the label \"head\", then it has the label \"formation\"' together with 'If something has the label \"formation\", then it has the label \"arrangement\"', can we infer 'If something has the label \"head\", then it has the label \"author\"'?"
+    ],
+    [
+        "HS",
+        69,
+        "From 'If something has the label \"door\", then it has the label \"room\"' together with 'If something has the label \"room\", then it has the label \"area\"', can we infer 'If something has the label \"door\", then it has the label \"gathering\"'?"
+    ],
+    [
+        "HS",
+        70,
+        "From 'If something has the label \"trail\", then it has the label \"track\"' together with 'If something has the label \"track\", then it has the label \"road\"', can we infer 'If something has the label \"trail\", then it has the label \"adult\"'?"
+    ],
+    [
+        "HS",
+        71,
+        "From 'If something has the label \"shade\", then it has the label \"representation\"' together with 'If something has the label \"representation\", then it has the label \"creation\"', can we infer 'If something has the label \"shade\", then it has the label \"creation\"'?"
+    ],
+    [
+        "HS",
+        72,
+        "From 'If something has the label \"design\", then it has the label \"sketch\"' together with 'If something has the label \"sketch\", then it has the label \"drawing\"', can we infer 'If something has the label \"design\", then it has the label \"relation\"'?"
+    ],
+    [
+        "HS",
+        73,
+        "From 'If something has the label \"sitter\", then it has the label \"model\"' together with 'If something has the label \"model\", then it has the label \"assistant\"', can we infer 'If something has the label \"sitter\", then it has the label \"place\"'?"
+    ],
+    [
+        "HS",
+        74,
+        "From 'If something has the label \"entrance\", then it has the label \"access\"' together with 'If something has the label \"access\", then it has the label \"way\"', can we infer 'If something has the label \"entrance\", then it has the label \"device\"'?"
+    ],
+    [
+        "HS",
+        75,
+        "From 'If something has the label \"person\", then it has the label \"figure\"' together with 'If something has the label \"figure\", then it has the label \"body\"', can we infer 'If something has the label \"person\", then it has the label \"relation\"'?"
+    ],
+    [
+        "HS",
+        76,
+        "From 'If something has the label \"drain\", then it has the label \"pipe\"' together with 'If something has the label \"pipe\", then it has the label \"tube\"', can we infer 'If something has the label \"drain\", then it has the label \"creation\"'?"
+    ],
+    [
+        "HS",
+        77,
+        "From 'If something has the label \"shift\", then it has the label \"crew\"' together with 'If something has the label \"crew\", then it has the label \"unit\"', can we infer 'If something has the label \"shift\", then it has the label \"unit\"'?"
+    ],
+    [
+        "HS",
+        78,
+        "From 'If something has the label \"beat\", then it has the label \"path\"' together with 'If something has the label \"path\", then it has the label \"line\"', can we infer 'If something has the label \"beat\", then it has the label \"line\"'?"
+    ],
+    [
+        "HS",
+        79,
+        "From 'If something has the label \"carbon\", then it has the label \"copy\"' together with 'If something has the label \"copy\", then it has the label \"representation\"', can we infer 'If something has the label \"carbon\", then it has the label \"representation\"'?"
+    ],
+    [
+        "HS",
+        80,
+        "From 'If something has the label \"counter\", then it has the label \"table\"' together with 'If something has the label \"table\", then it has the label \"furniture\"', can we infer 'If something has the label \"counter\", then it has the label \"furniture\"'?"
+    ],
+    [
+        "HS",
+        81,
+        "From 'If something has the label \"temple\", then it has the label \"building\"' together with 'If something has the label \"building\", then it has the label \"construction\"', can we infer 'If something has the label \"temple\", then it has the label \"accumulation\"'?"
+    ],
+    [
+        "HS",
+        82,
+        "From 'If something has the label \"council\", then it has the label \"assembly\"' together with 'If something has the label \"assembly\", then it has the label \"gathering\"', can we infer 'If something has the label \"council\", then it has the label \"band\"'?"
+    ],
+    [
+        "HS",
+        83,
+        "From 'If something has the label \"rise\", then it has the label \"side\"' together with 'If something has the label \"side\", then it has the label \"formation\"', can we infer 'If something has the label \"rise\", then it has the label \"track\"'?"
+    ],
+    [
+        "HS",
+        84,
+        "From 'If something has the label \"boat\", then it has the label \"vessel\"' together with 'If something has the label \"vessel\", then it has the label \"craft\"', can we infer 'If something has the label \"boat\", then it has the label \"series\"'?"
+    ],
+    [
+        "HS",
+        85,
+        "From 'If something has the label \"cab\", then it has the label \"compartment\"' together with 'If something has the label \"compartment\", then it has the label \"room\"', can we infer 'If something has the label \"cab\", then it has the label \"atmosphere\"'?"
+    ],
+    [
+        "HS",
+        86,
+        "From 'If something has the label \"bridge\", then it has the label \"support\"' together with 'If something has the label \"support\", then it has the label \"device\"', can we infer 'If something has the label \"bridge\", then it has the label \"design\"'?"
+    ],
+    [
+        "HS",
+        87,
+        "From 'If something has the label \"vessel\", then it has the label \"craft\"' together with 'If something has the label \"craft\", then it has the label \"vehicle\"', can we infer 'If something has the label \"vessel\", then it has the label \"author\"'?"
+    ],
+    [
+        "HS",
+        88,
+        "From 'If something has the label \"current\", then it has the label \"course\"' together with 'If something has the label \"course\", then it has the label \"series\"', can we infer 'If something has the label \"current\", then it has the label \"series\"'?"
+    ],
+    [
+        "HS",
+        89,
+        "From 'If something has the label \"shot\", then it has the label \"exposure\"' together with 'If something has the label \"exposure\", then it has the label \"representation\"', can we infer 'If something has the label \"shot\", then it has the label \"representation\"'?"
+    ],
+    [
+        "HS",
+        90,
+        "From 'If something has the label \"rear\", then it has the label \"formation\"' together with 'If something has the label \"formation\", then it has the label \"arrangement\"', can we infer 'If something has the label \"rear\", then it has the label \"arrangement\"'?"
+    ],
+    [
+        "HS",
+        91,
+        "From 'If something has the label \"case\", then it has the label \"housing\"' together with 'If something has the label \"housing\", then it has the label \"protection\"', can we infer 'If something has the label \"case\", then it has the label \"area\"'?"
+    ],
+    [
+        "HS",
+        92,
+        "From 'If something has the label \"bed\", then it has the label \"base\"' together with 'If something has the label \"base\", then it has the label \"support\"', can we infer 'If something has the label \"bed\", then it has the label \"support\"'?"
+    ],
+    [
+        "HS",
+        93,
+        "From 'If something has the label \"camp\", then it has the label \"housing\"' together with 'If something has the label \"housing\", then it has the label \"construction\"', can we infer 'If something has the label \"camp\", then it has the label \"construction\"'?"
+    ],
+    [
+        "HS",
+        94,
+        "From 'If something has the label \"member\", then it has the label \"unit\"' together with 'If something has the label \"unit\", then it has the label \"organization\"', can we infer 'If something has the label \"member\", then it has the label \"organization\"'?"
+    ],
+    [
+        "HS",
+        95,
+        "From 'If something has the label \"pottery\", then it has the label \"shop\"' together with 'If something has the label \"shop\", then it has the label \"work\"', can we infer 'If something has the label \"pottery\", then it has the label \"work\"'?"
+    ],
+    [
+        "HS",
+        96,
+        "From 'If something has the label \"college\", then it has the label \"complex\"' together with 'If something has the label \"complex\", then it has the label \"construction\"', can we infer 'If something has the label \"college\", then it has the label \"construction\"'?"
+    ],
+    [
+        "HS",
+        97,
+        "From 'If something has the label \"host\", then it has the label \"computer\"' together with 'If something has the label \"computer\", then it has the label \"machine\"', can we infer 'If something has the label \"host\", then it has the label \"friend\"'?"
+    ],
+    [
+        "HS",
+        98,
+        "From 'If something has the label \"parish\", then it has the label \"community\"' together with 'If something has the label \"community\", then it has the label \"gathering\"', can we infer 'If something has the label \"parish\", then it has the label \"gathering\"'?"
+    ],
+    [
+        "HS",
+        99,
+        "From 'If something has the label \"harness\", then it has the label \"support\"' together with 'If something has the label \"support\", then it has the label \"device\"', can we infer 'If something has the label \"harness\", then it has the label \"authority\"'?"
+    ],
+    [
+        "HS",
+        100,
+        "From 'If something has the label \"charcoal\", then it has the label \"drawing\"' together with 'If something has the label \"drawing\", then it has the label \"representation\"', can we infer 'If something has the label \"charcoal\", then it has the label \"part\"'?"
+    ]
+]
