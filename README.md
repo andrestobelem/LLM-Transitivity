@@ -63,6 +63,36 @@ The current runner uses these fixed settings:
 
 A new run replaces any result file that has the same case ID.
 
+## Generate an NLTK dataset
+
+Generate 100 balanced cases with common vocabulary from NLTK WordNet and the
+Brown corpus:
+
+```shell
+uv run python scripts/generate_nltk_dataset.py --download-nltk-data
+```
+
+The command writes prompts to `prompts/userPrompts/HS_NLTK.json` and the
+expected answers to `prompts/userPrompts/HS_NLTK_labels.json`. To run this
+dataset without replacing the current results:
+
+```shell
+uv run python runBenchmark.py \
+  --dataset prompts/userPrompts/HS_NLTK.json \
+  --data-dir data/HS_NLTK
+```
+
+## View results
+
+Start a local server from the repository root:
+
+```shell
+python3 -m http.server 8000
+```
+
+Open `http://localhost:8000/visualizer/`. The visualizer shows the prompt and
+model response first. Technical details are available in each case.
+
 ## Development checks
 
 Run the linter:
