@@ -4,7 +4,7 @@
     "model": "openai/gpt-5.4-mini",
     "responses": "yes",
     "raw_response": {
-        "id": "gen-1788325403-bLlRa9HxlnC8PPycWPoz",
+        "id": "gen-1788365823-IjHTDU93OJS2gDA4o09i",
         "choices": [
             {
                 "finish_reason": "stop",
@@ -23,7 +23,7 @@
                 "native_finish_reason": "completed"
             }
         ],
-        "created": 1788325403,
+        "created": 1788365823,
         "model": "openai/gpt-5.4-mini",
         "object": "chat.completion",
         "metadata": null,
@@ -62,7 +62,7 @@
         "openrouter_metadata": {
             "requested": "openai/gpt-5.4-mini",
             "strategy": "direct",
-            "region": "SCL",
+            "region": "EZE",
             "summary": "available=3, selected=OpenAI",
             "attempt": 1,
             "is_byok": false,
